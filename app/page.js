@@ -1,13 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Hero from "@/components/custom/Hero";
 
 export default function Home() {
   return (
     <div>
-      <h2 className="bold text-3xl">hello world</h2>
-      <Button variant="link">Subscribe</Button>
-
-      
+      <Hero />
     </div>
   );
 }
